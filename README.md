@@ -16,3 +16,6 @@ It is highly recommended to use deconvolved data, due to better resulting image 
 Fig. 1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity visualized using MIP.
 
 Purpose: It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made in the Petri dish, according to which cells orient during the experiment.
+
+First, the macro splits channels. The image with the protein is not used and, thus, is closed. The image with the nucleus is processed, so as only nucleus part of the actin network, i.d. only perinuclear part, can be segmented afterwards - a binary mask is created from the nucleus shape (PIC).
+
