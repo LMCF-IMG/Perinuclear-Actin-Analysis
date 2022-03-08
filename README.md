@@ -9,4 +9,4 @@ Input: 3-channel 3D confocal data where the 1st channel contains an image of act
 
 ![MAX_2019-05-16_Protocol_16_decon-ROI01 tif (RGB)](https://user-images.githubusercontent.com/63607289/157253623-369f9b0f-f25f-477a-8ce1-758bebe1b001.jpg)
 
-Fig. 1: Input confocal data for the analysis, for simple visualization with using MIP.
+Fig. 1: Input 3-channel confocal data for the analysis, for simplicity visualized using MIP.
