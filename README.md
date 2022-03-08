@@ -5,7 +5,7 @@ Three macros.
 
 **Macro #1:**
 
-Input: 3-channel 3D confocal data where the 1st channel contains an image of actin network, the 2nd channel is a picture of a protein *(which one, why ???)* and the 3rd channel is a nucleus stained by DAPI, see Fig. 1. However, if the order of the channels is not correct, it can be modified in the macro using PARAMETERS.
+Input: 3-channel 3D confocal data where the 1st channel contains an image of actin network (red), the 2nd channel is a picture of a protein (green) *(which one, why ???)* and the 3rd channel is a nucleus stained by DAPI (blue), see Fig. 1. However, if the order of the channels is not correct, it can be modified in the macro using PARAMETERS.
 
 It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise.
 
