@@ -16,4 +16,3 @@ It is highly recommended to use deconvolved data, due to better resulting image 
 Fig. 1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity visualized using MIP.
 
 Purpose: It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made in the Petri dish, according to which cells orient during the experiment.
-
