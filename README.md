@@ -21,3 +21,5 @@ Fig. 1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity 
 
 First, the macro splits channels. The image with the protein is not used and, thus, is closed. The image with the nucleus is processed, so as only nucleus part of the actin network, i.d. only perinuclear part, is segmented afterwards - a binary mask is created from the nucleus shape (Fig. 1-right).
 
+Then, the actin image is processed by subtraction of the nonhomegenous background, maximum intensity projection (MIP) is computed to visualize actin in one layer only, it is smoothed and filtered by Tubeness filter (https://biii.eu/tubeness) to enhance individual actin fibers (PIC). Then the mask created from the nucleus is applied, so as only perinuclear part of the actin is analysed (PIC).
+
