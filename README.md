@@ -37,4 +37,4 @@ Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x
 
 ![Fig_4_Montage_Actin_Rotated_Directionality_Histogram](https://user-images.githubusercontent.com/63607289/158403957-6689d1e8-0467-4b84-9930-110079bf1cd0.jpg)
 
-Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle and corresponding directionality histogram.
+Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle and the corresponding directionality histogram.
