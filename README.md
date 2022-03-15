@@ -27,8 +27,6 @@ Then, the actin image is processed by subtraction of the nonhomegenous backgroun
 
 Fig.2: Tubeness-filtered actin and masked.
 
-**Analyses:**
-
 **1. Orientation of the nucleus (i.e. a cell) with respect to the guide line.** Each cell, a binary mask created from the shape of nucleus, respectively, is fitted by an ellipse and its axes, major and minor one, are computed. After drawing the guide line, an angle between the fitted ellipse main axis, rotated to align with the x-axis, and the guide line, in green, is evaluated in Fig.3.
 
 ![Fig_3_EllipseFit-AngleCorr-2 1664°-Scale_0_5](https://user-images.githubusercontent.com/63607289/158391329-fe918a21-1f3b-4bc4-84cc-a154c91f8cb5.jpg)
