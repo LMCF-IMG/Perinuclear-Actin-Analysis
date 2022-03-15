@@ -33,4 +33,4 @@ Fig.2: Tubeness-filtered actin and masked.
 
 ![Fig_3_EllipseFit-AngleCorr-2 1664°-Scale_0_5](https://user-images.githubusercontent.com/63607289/158391329-fe918a21-1f3b-4bc4-84cc-a154c91f8cb5.jpg)
 
-Fig.3: Ellipse fitted to the nucleus mask, rotated to align the main axis with x, with evaluation of the angle between the ellipse main axis (blue) and the guide line (green). The value "Corr." is the difference between an optimal expected angle, i.e. 90°, and the found angle, here 92.1664°.
+Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x, with evaluation of the angle between the ellipse main axis (blue) and the guide line (green). The value "Corr." is the difference between an optimal expected angle, i.e. 90°, and the found angle, here 92.1664°.
