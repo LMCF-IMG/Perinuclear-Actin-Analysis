@@ -29,8 +29,11 @@ Fig.2: Tubeness-filtered actin and masked.
 
 **Analyses:**
 
-1. **Orientation of the nucleus (i.e. a cell) with respect to the guide line.** Each cell, a binary mask created from the shape of nucleus, respectively, is fitted by an ellipse and its axes, major and minor one, are computed. After drawing the guide line, an angle between the fitted ellipse main axis, rotated to align with the x-axis, and the guide line, in green, is evaluated in Fig.3.
+**1. Orientation of the nucleus (i.e. a cell) with respect to the guide line.** Each cell, a binary mask created from the shape of nucleus, respectively, is fitted by an ellipse and its axes, major and minor one, are computed. After drawing the guide line, an angle between the fitted ellipse main axis, rotated to align with the x-axis, and the guide line, in green, is evaluated in Fig.3.
 
 ![Fig_3_EllipseFit-AngleCorr-2 1664°-Scale_0_5](https://user-images.githubusercontent.com/63607289/158391329-fe918a21-1f3b-4bc4-84cc-a154c91f8cb5.jpg)
 
 Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x, with evaluation of the angle between the ellipse main axis (blue) and the guide line (green). The value "Corr." is the difference between an optimal expected angle, i.e. 90°, and the found angle, here 92.1664°.
+
+**2. Distribution of perinuclear actin fiber directions.** Image of perinuclear actin fibers rotated by the angle found in the previous step is analysed for distribution of directions of the actin in the cell (PIC cell). The rotation applied is necessary, since the distribution of theses directions is related to the guide line, for various orientations of various cells during the treatment. For evaluation of these distributions the Directionality plugin is used (https://imagej.net/plugins/directionality). (PIC histogram)
+
