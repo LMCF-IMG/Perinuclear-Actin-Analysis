@@ -33,5 +33,6 @@ Fig.2: Tubeness-filtered actin and masked.
 
 Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x, with evaluation of the angle between the ellipse main axis (blue) and the guide line (green). The value "Corr." is the difference between an optimal expected angle, i.e. 90°, and the found angle, here 92.1664°.
 
-**2. Distribution of perinuclear actin fiber directions.** Image of perinuclear actin fibers rotated by the angle found in the previous step is analysed for distribution of directions of the actin in the cell (PIC cell). The rotation applied is necessary, since the distribution of theses directions is related to the guide line, for various orientations of various cells during the treatment. For evaluation of these distributions the Directionality plugin is used (https://imagej.net/plugins/directionality). (PIC histogram)
+**2. Distribution of perinuclear actin fiber directions.** Image of perinuclear actin fibers rotated by the angle found in the previous step is analysed for distribution of directions of the actin in the cell (Fig.4-left). The rotation applied is necessary, since the distribution of theses directions is related to the guide line, for various orientations of various cells during the treatment. For evaluation of these distributions the Directionality plugin is used (https://imagej.net/plugins/directionality) (Fig.4-right).
 
+![Fig_4_Montage_Actin_Rotated_Directionality_Histogram](https://user-images.githubusercontent.com/63607289/158403957-6689d1e8-0467-4b84-9930-110079bf1cd0.jpg)
