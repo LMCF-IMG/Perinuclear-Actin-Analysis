@@ -41,6 +41,6 @@ Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x
 
 Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle and the corresponding directionality histogram.
 
-After these steps the picture of MIP of perinuclear actin is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
+After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
 Since the data of actin is far from ideal due to noise, low contrast locally etc., before applying the next macro, Macro #2, it is necessary to edit skeleton manually with the help of the image of original perinuclear actin as a reference to correct for badly skeletonized parts. (PIC-orig int, PIC-orig skeleton, PIC-skeleton modified).
