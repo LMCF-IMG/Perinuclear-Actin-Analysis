@@ -13,7 +13,7 @@ Three macros.
 
 It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise.
 
-Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling, Eukaryotic group - Dr. Tomáš Vomastek, Institute of Microbiology of the Czech Academy of Sciences](https://mbucas.cz/en/research/microbiology/laboratory-of-cell-signalization/).
+Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling, Eukaryotic group - Dr. Tomáš Vomastek, Institute of Microbiology of the Czech Academy of Sciences, Prague, Czech Republic](https://mbucas.cz/en/research/microbiology/laboratory-of-cell-signalization/).
 
 ![Montage_Orig_Nucleus_Mask](https://user-images.githubusercontent.com/63607289/158192279-af4b2f23-1b54-4e29-af9b-664eefae3d35.jpg)
 
