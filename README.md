@@ -55,6 +55,6 @@ Fig.5: MIP of actin, not filtered, with original intensities (left), and skeleto
 
 **Purpose:** Evaluation of lengths and branchings of the actin fiber network.
 
-A picture with the perinuclear actin skeleton, edited in the previous step, is analyzed again by skeletonizing. For this purpose the following plugins are used: [Skeletonize (2D/3D)](https://imagej.net/plugins/skeletonize3d) and [Analyze Skeleton (2D/3D)](https://imagej.net/plugins/analyze-skeleton/). The results of this macro - a CSV file with lenghts of the skeleton parts and a picture of skeleton with colour-labelled parts (PIC) - are stored in the disk.
+A picture with the perinuclear actin skeleton, edited in the previous step, is analyzed again by skeletonizing. For this purpose the following plugins are used: [Skeletonize (2D/3D)](https://imagej.net/plugins/skeletonize3d) and [Analyze Skeleton (2D/3D)](https://imagej.net/plugins/analyze-skeleton/). The results of this macro - a CSV file with lenghts of the skeleton parts and a picture of skeleton with colour-labeled parts (PIC) - are stored in the disk.
 
 
