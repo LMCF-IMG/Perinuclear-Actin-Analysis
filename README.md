@@ -44,3 +44,7 @@ Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, ro
 After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
 Since the data of actin is far from ideal due to noise, low contrast locally etc., before applying the next macro, Macro #2, it is necessary to edit skeleton manually with the help of the image of original perinuclear actin as a reference to correct for badly skeletonized parts. (PIC-orig int, PIC-orig skeleton, PIC-skeleton modified).
+
+![Fig_5_MIPOrig-Skeletons](https://user-images.githubusercontent.com/63607289/158555087-8676a740-0d32-4269-9957-d70a22b64f7c.jpg)
+
+Fig.5: MIP of actin, not filtered, with original intensities, and skeletons - original and slightly edited one with respect to the left image.
