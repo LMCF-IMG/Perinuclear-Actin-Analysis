@@ -23,7 +23,7 @@ Fig.1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity v
 
 First, the macro splits channels. The image with the protein is not used and, thus, is closed. The image with the nucleus is processed, so as only nucleus part of the actin network, i.d. only perinuclear part, is segmented afterwards - a binary mask is created from the nucleus shape (Fig.1-right).
 
-Then, the actin image is processed by subtraction of the nonhomegenous background, maximum intensity projection (MIP) is computed to visualize actin in one layer only, it is smoothed and filtered by Tubeness filter (https://biii.eu/tubeness) to enhance individual actin fibers (Fig.2-left). Then the mask created from the nucleus is applied, so as only perinuclear part of the actin is analysed (Fig.2-right).
+Then, the actin image is processed by subtraction of the nonhomegenous background, maximum intensity projection (MIP) is computed to visualize actin in one layer only, it is smoothed and filtered by [Tubeness filter](https://biii.eu/tubeness) to enhance individual actin fibers (Fig.2-left). Then the mask created from the nucleus is applied, so as only perinuclear part of the actin is analysed (Fig.2-right).
 
 ![Montage02_Tubeness_Masked_Tubeness](https://user-images.githubusercontent.com/63607289/158388172-673d43ad-6598-4013-a69b-65a52be49356.jpg)
 
@@ -35,11 +35,11 @@ Fig.2: Tubeness-filtered actin and masked.
 
 Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x, with evaluation of the angle between the ellipse main axis (blue) and the guide line (green). The value "Corr." is the difference between an optimal expected angle, i.e. 90°, and the found angle, here 92.1664°.
 
-**2. Distribution of perinuclear actin fiber directions.** MIP image of perinuclear actin fibers, without Tubeness filtration here, rotated by the angle found in the previous step is analysed for distribution of directions of the actin in the cell (Fig.4-left). The rotation applied is necessary, since the distribution of theses directions is related to the guide line, for various orientations of various cells during the treatment. For evaluation of these distributions the Directionality plugin is used (https://imagej.net/plugins/directionality) (Fig.4-right).
+**2. Distribution of perinuclear actin fiber directions.** MIP image of perinuclear actin fibers, without Tubeness filtration here, rotated by the angle found in the previous step is analysed for distribution of directions of the actin in the cell (Fig.4-left). The rotation applied is necessary for normalization of the directions, since the distribution of theses directions is related to the guide line and due to various orientations of various cells during the treatment. For evaluation of these distributions the [Directionality plugin](https://imagej.net/plugins/directionality) is used (Fig.4-right).
 
 ![Fig_4_Montage_Actin_Rotated_Directionality_Histogram](https://user-images.githubusercontent.com/63607289/158403957-6689d1e8-0467-4b84-9930-110079bf1cd0.jpg)
 
-Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle and the corresponding directionality histogram.
+Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle, and the corresponding directionality histogram. 
 
 After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
