@@ -39,7 +39,7 @@ Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x
 
 ![Fig_4_Montage_Actin_Rotated_Directionality_Histogram](https://user-images.githubusercontent.com/63607289/158403957-6689d1e8-0467-4b84-9930-110079bf1cd0.jpg)
 
-Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle, and the corresponding directionality histogram. 
+Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle, and the corresponding directionality histogram.
 
 After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
@@ -51,4 +51,10 @@ Fig.5: MIP of actin, not filtered, with original intensities (left), and skeleto
 
 ### Macro #2:
 
-**Input:** An image with manually edited skeleton, e.g. Fig.5-right.
+**Input:** An image with manually edited skeleton, e.g., Fig.5-right.
+
+**Purpose:** Evaluation of lengths and branchings of the actin fiber network.
+
+A picture with the perinuclear actin skeleton, edited in the previous step, is analyzed again by skeletonizing. For this purpose the following plugins are used: [Skeletonize (2D/3D)](https://imagej.net/plugins/skeletonize3d) and [Analyze Skeleton (2D/3D)](https://imagej.net/plugins/analyze-skeleton/). The results of this macro - a CSV file with lenghts of the skeleton parts and a picture of skeleton with colour-labelled parts (PIC) - are stored in the disk.
+
+
