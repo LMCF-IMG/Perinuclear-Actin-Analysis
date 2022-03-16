@@ -47,4 +47,4 @@ Since the data of actin is far from ideal due to noise, low contrast locally etc
 
 ![Fig_5_MIPOrig-Skeletons](https://user-images.githubusercontent.com/63607289/158555087-8676a740-0d32-4269-9957-d70a22b64f7c.jpg)
 
-Fig.5: MIP of actin, not filtered, with original intensities, and skeletons - original and slightly edited one with respect to the left image.
+Fig.5: MIP of actin, not filtered, with original intensities (left), and skeletons - original (middle) and slightly edited one (right) with respect to the left image.
