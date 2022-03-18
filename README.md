@@ -68,3 +68,5 @@ A picture with the perinuclear actin skeleton, edited in the previous step, is a
 Color-labeled skeleton parts are mapped to the image with intensities (Fig.7-left), another image where skeleton parts are mapped to [local thicknesses](https://imagej.net/imagej-wiki-static/Local_Thickness) (Fig.7-right) is created as well. Corresponding values (skeleton lenghts, their average thicknesses and intensities) are stored in the disk in a TXT file (Fig.8).
 
 ![Fig_7_Montage_Skeleton_Mapped_To_Intensities_And_LocalThicknesses_Scale_0_5](https://user-images.githubusercontent.com/63607289/159048362-44edf6b8-829c-442d-80df-8abbdd75c222.jpg)
+
+Fig.7: Color-labeled skeleton parts mapped to intensities and thicknesses.
