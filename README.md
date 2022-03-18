@@ -61,8 +61,7 @@ A picture with the perinuclear actin skeleton, edited in the previous step, is a
 
 ### Macro #3:
 
-**Input:** An image with a color-labeled skeleton created and stored by Macro #2 (Fig.6) and an image created and stored by the Macro #1 with the suffix "An image with a color-labeled skeleton created and stored by Macro #2 (PIC) and an image created and stored by the Macro #1 with the suffix "-Actin-MIP-OrigIntensity.tif" (PIC)
-" (PIC)
+**Input:** An image with a color-labeled skeleton created and stored by Macro #2 (Fig.6) and an image created and stored by the Macro #1 with the suffix "-Actin-MIP-OrigIntensity.tif" (Fig.5-left)
 
+**Purpose:** Evaluation of thicknesses and intensities of individual perinuclear actin fibers based on the color-labeled skeleton image, which contains skeleton parts distinguished by color, and the MIP image of these fibers.
 
-**Purpose:** Evaluation of lengths and branchings of the actin fiber network.
