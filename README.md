@@ -70,3 +70,7 @@ Color-labeled skeleton parts are mapped to the image with intensities (Fig.7-lef
 ![Fig_7_Montage_Skeleton_Mapped_To_Intensities_And_LocalThicknesses_Scale_0_5](https://user-images.githubusercontent.com/63607289/159048362-44edf6b8-829c-442d-80df-8abbdd75c222.jpg)
 
 Fig.7: Color-labeled skeleton parts mapped to intensities and thicknesses.
+
+![Fig_8_Example_Results](https://user-images.githubusercontent.com/63607289/159049238-c559d2dc-ac43-4876-8eeb-d8288466dc2e.jpg)
+
+Fig. 8: Example results of the analysis: skeleton lenghts, their average thicknesses and intensities.
