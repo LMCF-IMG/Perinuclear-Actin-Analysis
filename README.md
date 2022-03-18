@@ -65,4 +65,6 @@ A picture with the perinuclear actin skeleton, edited in the previous step, is a
 
 **Purpose:** Evaluation of thicknesses and intensities of individual perinuclear actin fibers based on the color-labeled skeleton image, which contains skeleton parts distinguished by color, and the MIP image of these fibers.
 
-Color-labeled skeleton parts are mapped to the image with intensities (Fig.6-left), another image where skeleton parts are mapped to [local thicknesses](https://imagej.net/imagej-wiki-static/Local_Thickness) (Fig.6-right) is created as well. Corresponding values (skeleton lenghts, their average thicknesses and intensities) are stored in the disk in a TXT file (Fig.7).
+Color-labeled skeleton parts are mapped to the image with intensities (Fig.7-left), another image where skeleton parts are mapped to [local thicknesses](https://imagej.net/imagej-wiki-static/Local_Thickness) (Fig.7-right) is created as well. Corresponding values (skeleton lenghts, their average thicknesses and intensities) are stored in the disk in a TXT file (Fig.8).
+
+![Fig_7_Montage_Skeleton_Mapped_To_Intensities_And_LocalThicknesses_Scale_0_5](https://user-images.githubusercontent.com/63607289/159048362-44edf6b8-829c-442d-80df-8abbdd75c222.jpg)
