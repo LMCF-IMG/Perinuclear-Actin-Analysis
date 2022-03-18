@@ -59,6 +59,8 @@ A picture with the perinuclear actin skeleton, edited in the previous step, is a
 
 ![Fig_6_Skeleton_Color_Labeled_Parts](https://user-images.githubusercontent.com/63607289/159013891-2de8792e-da80-4fc5-95f4-20871dff5e52.jpg)
 
+Fig.6: Color-labeled skeleton parts.
+
 ### Macro #3:
 
 **Input:** An image with a color-labeled skeleton created and stored by Macro #2 (Fig.6) and an image created and stored by the Macro #1 with the suffix "-Actin-MIP-OrigIntensity.tif" (Fig.5-left)
