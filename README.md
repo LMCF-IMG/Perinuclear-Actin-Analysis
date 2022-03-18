@@ -65,4 +65,4 @@ A picture with the perinuclear actin skeleton, edited in the previous step, is a
 
 **Purpose:** Evaluation of thicknesses and intensities of individual perinuclear actin fibers based on the color-labeled skeleton image, which contains skeleton parts distinguished by color, and the MIP image of these fibers.
 
-Color-labeled skeleton parts are mapped to the image with intensities (Fig.6-left), another image where skeleton parts are mapped to local thicknesses (Fig.6-right) is created as well. Corresponding values (skeleton lenghts, their average thicknesses and intensities) are stored in the disk in a TXT file.
+Color-labeled skeleton parts are mapped to the image with intensities (Fig.6-left), another image where skeleton parts are mapped to local thicknesses (Fig.6-right) is created as well. Corresponding values (skeleton lenghts, their average thicknesses and intensities) are stored in the disk in a TXT file (Fig.7).
