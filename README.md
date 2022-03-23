@@ -77,4 +77,4 @@ Fig.7: Color-labeled skeleton parts mapped to intensities and thicknesses.
 
 ![Fig_8_Example_Results](https://user-images.githubusercontent.com/63607289/159049238-c559d2dc-ac43-4876-8eeb-d8288466dc2e.jpg)
 
-Fig.8: Example results of the analysis: skeleton lenghts, their average thicknesses and intensities.
+Fig.8: Example results of the analysis: skeleton lenghts and average thicknesses and intensities of corresponding actin network parts.
