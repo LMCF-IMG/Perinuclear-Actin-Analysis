@@ -19,7 +19,7 @@ Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling
 
 Fig.1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity visualized using MIP, and a mask created from the nucleus.
 
-**Purpose of the macro:** It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made on the coverslip in the Petri dish, according to which cells orient during the experiment.
+**Purpose of the macro:** It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made on the coverslip in the Petri dish, according to this scratch cells orient during the experiment.
 
 First, the macro splits channels. The image with the protein is not used and, thus, is closed. The image with the nucleus is processed, so as only nucleus part of the actin network, i.d. only perinuclear part, is segmented afterwards - a binary mask is created from the nucleus shape (Fig.1-right).
 
@@ -40,6 +40,8 @@ Fig.3: Ellipse fitted to the nucleus mask, rotated to align its main axis with x
 ![Fig_4_Montage_Actin_Rotated_Directionality_Histogram](https://user-images.githubusercontent.com/63607289/158403957-6689d1e8-0467-4b84-9930-110079bf1cd0.jpg)
 
 Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, rotated with the found angle, and the corresponding directionality histogram.
+
+Corresponding numerical directionality values are stored in the disk in a TXT file.
 
 After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
