@@ -9,9 +9,9 @@ Three macros.
 
 **Input:** 3-channel 3D confocal data where the 1st channel contains an image of actin network (red), the 2nd channel is a picture of a protein, here FAK - focal adhesion kinase, (green) and the 3rd channel is a nucleus stained by DAPI (blue), see Fig.1-left. If the order of the channels is not correct in the data or just two channels were used for sample staining, i.e. without the green one with protein, this can be modified in the macro using PARAMETERS section.
 
-**Staining of three channels:** Actin (red) was always stained with Rhodamine Phalloidin probe. Protein (green) was stained with appropriate primary antibody and visualized with Alexa Fluor 488 Goat anti-Mouse or anti-Rabbit IgG. DAPI was present in the Vectashield antifade mounting medium.
+**Staining of channels:** Actin (red) was always stained with Rhodamine Phalloidin probe. Protein (green) was stained with appropriate primary antibody and visualized with Alexa Fluor 488 Goat anti-Mouse or anti-Rabbit IgG. DAPI was present in the Vectashield antifade mounting medium.
 
-It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise. Before data processing using the macros, all images were deconvolved using [Huygens professional software](https://svi.nl). Parameters of imaging the samples can be found in [Material and Methods section] ()
+It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise. Before data processing using the macros, all images were deconvolved using [Huygens professional software](https://svi.nl). Parameters of imaging the samples can be found in [Material and Methods section].
 
 Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling, Eukaryotic group - Dr. Tomáš Vomastek, Institute of Microbiology of the Czech Academy of Sciences, Prague, Czech Republic.](https://mbucas.cz/en/research/microbiology/laboratory-of-cell-signalization/)
 
@@ -19,7 +19,7 @@ Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling
 
 Fig.1: Deconvolved 3-channel 3D confocal data for the analysis, for simplicity visualized using MIP, and a mask created from the nucleus.
 
-**Purpose of the macro:** It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made in the Petri dish, according to which cells orient during the experiment.
+**Purpose of the macro:** It is required to draw a guide line in the picture by using *Straight* tool in Fiji to  indicate where the scratch was made on the coverslip in the Petri dish, according to which cells orient during the experiment.
 
 First, the macro splits channels. The image with the protein is not used and, thus, is closed. The image with the nucleus is processed, so as only nucleus part of the actin network, i.d. only perinuclear part, is segmented afterwards - a binary mask is created from the nucleus shape (Fig.1-right).
 
@@ -43,7 +43,7 @@ Fig.4: Image of MIP of perinuclear actin fibers, without Tubeness filtration, ro
 
 After these steps the picture of perinuclear actin filtered with Tubeness, Fig.2-right, is skeletonized just to get initial network of the actin in the cell before analyzing fiber lenghts and branchings.
 
-Since the data of actin is far from ideal due to noise, low contrast locally etc., before applying the next macro, Macro #2, it is necessary to edit skeleton manually with the help of the image of original perinuclear actin as a reference to correct for badly skeletonized parts (Fig.5).
+Since the data of actin can be distorted with noise, low contrast etc., before applying the next macro, Macro #2, it is necessary to edit skeleton manually with the help of the image of original perinuclear actin as a reference to correct for badly skeletonized parts (Fig.5).
 
 ![Fig_5_MIPOrig-Skeletons](https://user-images.githubusercontent.com/63607289/158555087-8676a740-0d32-4269-9957-d70a22b64f7c.jpg)
 
