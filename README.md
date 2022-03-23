@@ -7,11 +7,11 @@ Three macros.
 
 ### Macro #1:
 
-**Input:** 3-channel 3D confocal data where the 1st channel contains an image of actin network (red), the 2nd channel is a picture of a protein (green) *(which one, why ???)* and the 3rd channel is a nucleus stained by DAPI (blue), see Fig.1-left. If the order of the channels is not correct in the data, it can be modified for processing in the macro using PARAMETERS section.
+**Input:** 3-channel 3D confocal data where the 1st channel contains an image of actin network (red), the 2nd channel is a picture of a protein, here FAK - focal adhesion kinase, (green) and the 3rd channel is a nucleus stained by DAPI (blue), see Fig.1-left. If the order of the channels is not correct in the data or just two channels were used for sample staining, i.e. without the green one with protein, this can be modified in the macro using PARAMETERS section.
 
-*Staining of three channels ???*
+**Staining of three channels:** Actin (red) was always stained with Rhodamine Phalloidin probe. Protein (green) was stained with appropriate primary antibody and visualized with Alexa Fluor 488 Goat anti-Mouse or anti-Rabbit IgG. DAPI was present in the Vectashield antifade mounting medium.
 
-It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise.
+It is highly recommended to use deconvolved data, due to better resulting image contrast and less noise. Before data processing using the macros, all images were deconvolved using [Huygens professional software](https://svi.nl). Parameters of imaging the samples can be found in [Material and Methods section] ()
 
 Data created and provided by Dr. Olga Marvalová, [Laboratory of Cell Signalling, Eukaryotic group - Dr. Tomáš Vomastek, Institute of Microbiology of the Czech Academy of Sciences, Prague, Czech Republic.](https://mbucas.cz/en/research/microbiology/laboratory-of-cell-signalization/)
 
