@@ -1,5 +1,3 @@
-**(in progress, to be updated)**
-
 # Perinuclear-Actin-Analysis
 ImageJ/Fiji macros for analysis of perinuclear actin networks images acquired by confocal microscopy.
 
